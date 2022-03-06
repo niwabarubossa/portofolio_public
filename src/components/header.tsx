@@ -9,8 +9,6 @@ function Header() {
         <Grid xs={12}>
             <HeaderWrapper>
                 <HeaderItem><Link to="/">TOP</Link></HeaderItem>
-                <HeaderItem><Link to="/profile">PROFILE</Link></HeaderItem>
-                <HeaderItem><Link to="/photo">PHOTO</Link></HeaderItem>
             </HeaderWrapper>
         </Grid>
     );
