@@ -1,9 +1,10 @@
 import Photo from "./photo"
+import Profile from "./profile"
 
 export default function Top() {
   return (
     <>
-      <div>Profile</div>
+      <Profile />
       <Photo />
     </>
   )

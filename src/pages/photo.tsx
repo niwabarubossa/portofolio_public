@@ -1,6 +1,7 @@
 import { Grid } from "@material-ui/core"
 import styled from "styled-components";
 import { Typography } from '@mui/material';
+import { Img } from "../components/StyledParts"
 
 export default function Photo() {
   const photoUrls = ["https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fresearch_niwa%2Fg_MZaIDGgC.JPG?alt=media&token=6369c6ff-6ea6-40c8-8d8d-cb03d639272c",
@@ -13,25 +14,22 @@ export default function Photo() {
     "https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fresearch_niwa%2FF5cGlFUnZb.JPG?alt=media&token=67b7ecc9-22ae-49c4-a9ef-b0e36d3f78fc"
   ];
 
-  const photos = photoUrls.map((photoUrl) => 
+  const photos = photoUrls.map((photoUrl) =>
     <Grid item xs={12} md={6}>
-        <Img src={photoUrl}
-            alt="photo" />
-      </Grid>
+      <Img src={photoUrl}
+        alt="photo" />
+    </Grid>
   )
-  
+
   return (
     <>
       <Typography variant="subtitle1">photo</Typography>
       <Grid container>
         {photos}
-        </Grid>
+      </Grid>
     </>
   )
-    
+
 }
 
-const Img = styled.img`
-    width: 100%;
-    height: auto;
-`;
+
