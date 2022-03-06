@@ -1,3 +1,10 @@
+import Photo from "./photo"
+
 export default function Top() {
-  return <div>this is a aatop page</div>;
+  return (
+    <>
+      <div>Profile</div>
+      <Photo />
+    </>
+  )
 }
