@@ -13,7 +13,7 @@ import styled from "styled-components";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Grid container>
         <Header />
         <Switch>
