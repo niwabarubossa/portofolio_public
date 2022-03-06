@@ -19,8 +19,8 @@ function App() {
         <Switch>
           <AppHeaderWrapper>
             <Route exact path="/" component={Top}></Route>
-            <Route exact path="/profile" component={Profile}></Route>
-            <Route exact path="/photo" component={Photo}></Route>
+            {/* <Route exact path="/profile" component={Profile}></Route> */}
+            {/* <Route exact path="/photo" component={Photo}></Route> */}
           </AppHeaderWrapper>
         </Switch>
       </Grid>
