@@ -12,7 +12,7 @@ export default function Profile() {
           <div>
             丹羽遼吾<br />
             <br />
-            人間総合科学学術院 人間総合科学研究群 情報学学位プログラム博士前期課程1年<br />
+            筑波大学 博士前期課程1年<br />
             デジタルネイチャー研究室所属<br />
             <br />
             Human Computer Interaction分野で研究をしています<br />

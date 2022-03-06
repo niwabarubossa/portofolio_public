@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Grid container>
-        <Header />
+        {/* <Header /> */}
         <Switch>
           <AppHeaderWrapper>
             <Route exact path="/" component={Top}></Route>
@@ -29,5 +29,5 @@ function App() {
 export default App;
 
 const AppHeaderWrapper = styled.div`
-  padding: 70px 10px 0 10px;
+  padding: 30px 10px 0 10px;
 `;
